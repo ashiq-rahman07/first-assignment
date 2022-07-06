@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+
+}
+
+h1 {
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+
+}
+
+p {
+    width: 600px;
+    font-size: 14px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+.hero-section {
+    background-image: url(images/donation13.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 90px;
+    padding-bottom: 75px;
+
+
+}
+
+.hero-heading {
+    width: 500px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.hero-para {
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+.hero-btn {
+    background-color: #FF5959;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.donate-heading {
+    color: black;
+}
+
+.donate-para {}
+
+.donate-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.donate-amount {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.donaate-tk {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.active-donate {
+    padding: 2px;
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 10px;
+}
+
+input {
+    width: 50%;
+
+}
+
+input[type=text] {
+    border: none;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DADADA;
+}
+
+
+
+.link-btn {
+    margin-top: 15px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #FF5959;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.donate-plan-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donate-plan-card {
+    margin-top: 30px;
+    max-width: 1170px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    margin-right: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.card-heading {
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(18, 18, 18, 1);
+}
+
+.card-para {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    width: 300px;
+}
+
+.card1 {
+    background-color: rgba(79, 157, 166, 0.1);
+}
+
+.card2 {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+.card3 {
+    background-color: rgba(255, 244, 214, 1);
+}
+
+.update-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+.div-input {
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    align-items: center;
+    text-align: center;
+    background-color: #FFF4D6;
+    padding: 50px;
+
+
+}
+
+input[type=email] {
+    background-color: rgba(217, 217, 217, 1);
+    border: none;
+    padding: 10px 20px;
+
+}
+
+.sbc-btn {
+    background-color: #FF5959;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+footer h1 {
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+
+}
