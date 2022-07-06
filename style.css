@@ -21,6 +21,8 @@ section {
     margin-bottom: 100px;
 }
 
+/* hero-section */
+
 .hero-section {
     background-image: url(images/donation13.jpg);
     background-position: center;
@@ -66,7 +68,7 @@ section {
 }
 
 
-
+/* Donate section*/
 .donate-container {
     display: flex;
     flex-direction: column;
@@ -118,7 +120,7 @@ input[type=text] {
     border-radius: 5px;
 }
 
-
+/* Donate plan section*/
 .donate-plan-container {
     display: flex;
     flex-direction: column;
@@ -166,7 +168,7 @@ input[type=text] {
     background-color: rgba(255, 244, 214, 1);
 }
 
-
+/* Blog section */
 .blog-section {
     background-color: rgba(200, 233, 237, 0.1);
     text-align: center;
@@ -200,7 +202,7 @@ input[type=text] {
 }
 
 
-
+/* Update section */
 .update-container {
     display: flex;
     flex-direction: column;
@@ -238,6 +240,7 @@ input[type=email] {
 
 }
 
+/* Footert bsection */
 footer {
     display: flex;
     flex-direction: column;
