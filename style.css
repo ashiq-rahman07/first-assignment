@@ -65,11 +65,7 @@ section {
     color: white;
 }
 
-.donate-heading {
-    color: black;
-}
 
-.donate-para {}
 
 .donate-container {
     display: flex;
@@ -118,6 +114,7 @@ input[type=text] {
     padding: 10px 20px;
     background-color: #FF5959;
     color: white;
+    border: none;
     border-radius: 5px;
 }
 
@@ -134,6 +131,7 @@ input[type=text] {
     display: flex;
     flex-direction: row;
     align-items: center;
+
 }
 
 .card {
@@ -167,6 +165,41 @@ input[type=text] {
 .card3 {
     background-color: rgba(255, 244, 214, 1);
 }
+
+
+.blog-section {
+    background-color: rgba(200, 233, 237, 0.1);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.blog-headingblog-heading {
+    width: 600px;
+    border-bottom: 2 px solid #FF5959;
+}
+
+.blog-container {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.blog-post {
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.blog-post p {
+    width: 300px;
+    text-align: justify;
+}
+
+
 
 .update-container {
     display: flex;
